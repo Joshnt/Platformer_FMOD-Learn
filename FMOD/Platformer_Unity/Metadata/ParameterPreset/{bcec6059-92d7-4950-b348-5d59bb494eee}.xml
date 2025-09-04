@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{bcec6059-92d7-4950-b348-5d59bb494eee}">
+		<property name="note">
+			<value>Did the player reach the victory zone/ house?
+0 = no, 1 = yes</value>
+		</property>
 		<property name="name">
 			<value>Ziel erreicht</value>
 		</property>

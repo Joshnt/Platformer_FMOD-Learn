@@ -1367,6 +1367,7 @@ GameObject:
   - component: {fileID: 4009130065698333723}
   - component: {fileID: 4009130065698333720}
   - component: {fileID: 4009130065698333724}
+  - component: {fileID: 7579996671748240921}
   m_Layer: 5
   m_Name: UI Canvas
   m_TagString: Untagged
@@ -1480,6 +1481,37 @@ MonoBehaviour:
   - {fileID: 1392875931}
   Player: {fileID: 0}
   TeleportTarget: {fileID: 0}
+--- !u!114 &7579996671748240921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009130065698333721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 540046156
+      Data2: 1136931906
+      Data3: 984332172
+      Data4: 1220680653
+    Path: snapshot:/Paused
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &4009130065942123195
 GameObject:
   m_ObjectHideFlags: 0

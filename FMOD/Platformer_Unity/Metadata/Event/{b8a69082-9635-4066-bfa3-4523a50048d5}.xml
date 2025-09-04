@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b8a69082-9635-4066-bfa3-4523a50048d5}">
+		<property name="note">
+			<value>Open/ Close Pause Menu (via ESC-Key).</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>

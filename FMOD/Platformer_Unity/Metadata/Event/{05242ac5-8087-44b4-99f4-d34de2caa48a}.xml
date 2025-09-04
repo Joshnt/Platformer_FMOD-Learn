@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{05242ac5-8087-44b4-99f4-d34de2caa48a}">
+		<property name="note">
+			<value>Player Character makes a step (triggered when foot touches the floor).</value>
+		</property>
 		<property name="color">
 			<value>Yellow</value>
 		</property>

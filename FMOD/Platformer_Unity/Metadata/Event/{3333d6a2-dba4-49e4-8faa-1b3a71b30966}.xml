@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3333d6a2-dba4-49e4-8faa-1b3a71b30966}">
+		<property name="note">
+			<value>Enemy idle sound.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -12,6 +15,9 @@
 		</property>
 		<relationship name="folder">
 			<destination>{308f9d12-1d83-46b9-a2af-3563ab17bad8}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{a0230bfd-ab98-4c9d-8d03-04a49bd0f5bd}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{2d00a8de-9b66-4217-9074-42f124178e7b}</destination>

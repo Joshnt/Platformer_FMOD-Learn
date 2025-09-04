@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{2030734c-3442-43c4-8cb7-ab3acd1bc248}">
+		<property name="note">
+			<value>Activated when the game is paused.</value>
+		</property>
+		<property name="name">
+			<value>Paused</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{4a986e91-80a0-471d-90d3-4f4dfdc2a239}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{3e35d904-4e27-4e53-99cf-9fd1324a8729}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{33fd6c1f-6c1f-4e93-bedc-9076c7a1af61}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{30d9a31d-1e20-4ab2-953b-0858017a7ece}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{6ffeea3c-46dd-4238-8cd8-f7d01b8ec1a4}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{3e35d904-4e27-4e53-99cf-9fd1324a8729}" />
+	<object class="MarkerTrack" id="{33fd6c1f-6c1f-4e93-bedc-9076c7a1af61}" />
+	<object class="Timeline" id="{30d9a31d-1e20-4ab2-953b-0858017a7ece}" />
+	<object class="SnapshotMasterTrack" id="{6ffeea3c-46dd-4238-8cd8-f7d01b8ec1a4}" />
+</objects>

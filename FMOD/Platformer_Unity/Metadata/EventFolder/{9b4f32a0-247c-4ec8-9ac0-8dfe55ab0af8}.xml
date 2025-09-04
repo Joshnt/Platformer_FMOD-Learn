@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{9b4f32a0-247c-4ec8-9ac0-8dfe55ab0af8}">
+		<property name="note">
+			<value>UI Elements for the Pause-Menu (ESC-Key)</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>

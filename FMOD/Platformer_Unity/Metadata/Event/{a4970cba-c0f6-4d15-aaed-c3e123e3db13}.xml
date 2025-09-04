@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a4970cba-c0f6-4d15-aaed-c3e123e3db13}">
+		<property name="note">
+			<value>Player-Character lands on the floor.</value>
+		</property>
 		<property name="color">
 			<value>Yellow</value>
 		</property>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ef3cc072-f436-4f3f-8057-772e769d9113}">
+		<property name="note">
+			<value>Player reaches the victory zone/ house at the end of the Level.
+(Use "Teleport" in the Pause-Menu to teleport the player close to the victory zone.)</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3086f4a7-5e3c-4c0e-9555-8c95e9aed810}">
+		<property name="note">
+			<value>General Music in the Level.
+Consider using parameters to change the music.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

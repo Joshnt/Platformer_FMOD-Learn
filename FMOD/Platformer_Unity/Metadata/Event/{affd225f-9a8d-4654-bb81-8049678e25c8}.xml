@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{affd225f-9a8d-4654-bb81-8049678e25c8}">
+		<property name="note">
+			<value>Player collects a single Gem/ "Coin".</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>

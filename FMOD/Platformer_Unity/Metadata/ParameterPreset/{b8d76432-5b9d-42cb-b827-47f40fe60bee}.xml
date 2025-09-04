@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{b8d76432-5b9d-42cb-b827-47f40fe60bee}">
+		<property name="note">
+			<value>is game pausd? 
+0 = no, 1 = yes</value>
+		</property>
 		<property name="name">
 			<value>Pausiert</value>
 		</property>

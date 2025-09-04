@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{814d9ec4-f270-420d-b2a6-f25fffff3ef9}">
+		<property name="note">
+			<value>Hover over a button in the Pause-Menu.</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>

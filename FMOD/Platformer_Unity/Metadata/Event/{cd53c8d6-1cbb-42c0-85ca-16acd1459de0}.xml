@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{cd53c8d6-1cbb-42c0-85ca-16acd1459de0}">
+		<property name="note">
+			<value>Player Character respawning (blob-animation).</value>
+		</property>
 		<property name="color">
 			<value>Yellow</value>
 		</property>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{6091ef55-3989-4d37-8c13-ba3378e16e82}">
+		<property name="note">
+			<value>Activated in "Cave"-ish parts of the map, e.g. secret Room on 4th platform or covered Area on final platform.</value>
+		</property>
+		<property name="name">
+			<value>Reverb</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{4a986e91-80a0-471d-90d3-4f4dfdc2a239}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{10ba2585-69ff-42fe-bffd-d9d14591b425}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{d3fe9c50-37dd-4e43-8338-e85dc7cfa73d}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{20cdc974-6219-4398-b867-6880338c65c8}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{b38f867d-1892-40de-b8a8-0ac84c27ccec}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{10ba2585-69ff-42fe-bffd-d9d14591b425}" />
+	<object class="MarkerTrack" id="{d3fe9c50-37dd-4e43-8338-e85dc7cfa73d}" />
+	<object class="Timeline" id="{20cdc974-6219-4398-b867-6880338c65c8}" />
+	<object class="SnapshotMasterTrack" id="{b38f867d-1892-40de-b8a8-0ac84c27ccec}" />
+</objects>

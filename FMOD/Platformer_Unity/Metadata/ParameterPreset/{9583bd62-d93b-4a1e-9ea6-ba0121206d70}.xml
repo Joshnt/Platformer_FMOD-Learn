@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{9583bd62-d93b-4a1e-9ea6-ba0121206d70}">
+		<property name="note">
+			<value>Number of collected Gems/ Coins by the player.
+Does not get reset when dying - use "Restart" in the Pause Menu in case.</value>
+		</property>
 		<property name="name">
 			<value>Anzahl Tokens</value>
 		</property>

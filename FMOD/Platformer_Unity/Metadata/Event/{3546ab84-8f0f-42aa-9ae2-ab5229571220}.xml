@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3546ab84-8f0f-42aa-9ae2-ab5229571220}">
+		<property name="note">
+			<value>Enemy dying by the Player jumping on it.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

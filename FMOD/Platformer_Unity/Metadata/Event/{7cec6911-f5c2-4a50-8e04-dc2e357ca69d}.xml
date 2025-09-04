@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7cec6911-f5c2-4a50-8e04-dc2e357ca69d}">
+		<property name="note">
+			<value>General Ambience for the Level.</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>
