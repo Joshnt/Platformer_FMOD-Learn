@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Platformer.UI
 {
@@ -10,6 +11,8 @@ namespace Platformer.UI
     public class MainUIController : MonoBehaviour
     {
         public GameObject[] panels;
+        public GameObject Player;
+        public Transform TeleportTarget;
 
         public void SetActivePanel(int index)
         {
@@ -19,6 +22,17 @@ namespace Platformer.UI
                 var g = panels[i];
                 if (g.activeSelf != active) g.SetActive(active);
             }
+        }
+
+        public void TeleportToVictory()
+        {
+            Player.transform.position = TeleportTarget.position;
+        }
+
+        public void RestartLevel()
+        {
+            Scene currentScene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(currentScene.name);
         }
 
         void OnEnable()

@@ -24,7 +24,7 @@ public class DistanceToExit : MonoBehaviour
         {
             float distance = Vector2.Distance(gameObject.transform.position, Victory.position); //150 ca max
             RuntimeManager.StudioSystem.setParameterByName("Entfernung zu Ziel", Mathf.Clamp(distance/150, 0f, 1f));
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.2f);
         }
     }
 }
