@@ -16,6 +16,9 @@
 		<relationship name="folder">
 			<destination>{6ae96474-d7f1-411e-9ed1-cf255a685df4}</destination>
 		</relationship>
+		<relationship name="tags">
+			<destination>{fb7f1544-ca14-41c7-91f0-937045d24b6f}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{b5eeec79-a20a-4345-b0aa-1faf90042ae0}</destination>
 		</relationship>
