@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{9583bd62-d93b-4a1e-9ea6-ba0121206d70}">
+		<property name="note">
+			<value>Anzahl an gesammelten Edelsteinen/ Münzen im Level.
+Wird nicht zurückgesetzt, wenn man stirbt - nutze den "Restart" Knopf im Pausen Menü, um das Level neu zu laden.</value>
+		</property>
+		<property name="name">
+			<value>Anzahl Tokens</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3ad964f8-6c36-41f0-969b-04a9ee242acc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{141ad9de-cadd-4393-9f60-c291afa7667d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{141ad9de-cadd-4393-9f60-c291afa7667d}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>101</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

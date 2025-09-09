@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{0b9aecf5-4339-46f7-9d56-7ed4b941e281}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
+		<property name="name">
+			<value>INTERACTABLES</value>
+		</property>
+		<relationship name="folder">
+			<destination>{72673fd5-1041-497c-a903-c3eb29e42715}</destination>
+		</relationship>
+	</object>
+</objects>
