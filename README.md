@@ -21,7 +21,7 @@ See setup in this Video:
 - **Organize as you like**: Events and Snapshots can be renamed, re-colored and moved in the hierachy to match your personal preference – parameters **cannot!!!!**  
 
 ---
-![enter image description here](https://unity-connect-prd.storage.googleapis.com/20190313/learn/images/ef3bf79d-def0-41d8-bd08-a842cc92c0e2_PlatformerTrails.png)
+![Platformer Unity](https://unity-connect-prd.storage.googleapis.com/20190313/learn/images/ef3bf79d-def0-41d8-bd08-a842cc92c0e2_PlatformerTrails.png)
 ---
 
 ## 📂 Structure
@@ -40,6 +40,13 @@ See setup in this Video:
 ## 📚 Tags & Lesson Concept
 Additionally, I added Tags to all Events, by which you can filter the Events in the search bar. Those include so called "Lesson-Tags", in which I tried to group the Events with increasing difficulty - the same system is used in all my other FMOD Learning Projects and only minimal in this one:
 - **Lesson 1** – Limited the project to 5 Events for a very easy Start in FMOD
+
+---
+## 🎮Re-Exporting the game with your own sounds
+To export/ build the game with your own sounds (without having to connect via Live-Update), you have to take two seperate steps:
+- 1) In your FMOD Project with all the sounds you have setup, choose File -> Build (F7). Keep in mind, that Unity will now always refer this state of your project for playing back sound until you connect via Live-Update.
+- 2) Open the Unity Project in the correct Editor Version **2022.3.51f1** (if you're doing that for the first time, that might take a while). Keep in mind, that you need to [install the Build Support Modules in the Unity Hub](https://docs.unity3d.com/hub/manual/AddModules.html) for the operating systems for which you want to export to (e.g. Windows Build support if you are on Mac). In the Unity Project, press File -> Build Settings... Then select the Target Platform for your game and press Build!
+
 
 ---
 ## 📦Other FMOD Learning Projects
